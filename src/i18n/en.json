@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "whyUs": "Why Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "SIMIĆ MONTAŽA",
+    "subtitle": "Precision Industrial Equipment Installation",
+    "description": "Professional installation of industrial machinery, ventilation, electronics, and specialized equipment.",
+    "cta": "Contact Us"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete industrial assembly solutions",
+    "items": [
+      {
+        "title": "Industrial Machinery",
+        "description": "Installation of production lines, CNC machines, and heavy industrial equipment with precision and safety."
+      },
+      {
+        "title": "Ventilation",
+        "description": "Installation of ventilation systems, industrial HVAC, and air exhaust systems."
+      },
+      {
+        "title": "Electronics",
+        "description": "Installation of control panels, sensors, and complete industrial electronics."
+      },
+      {
+        "title": "Electric Motors",
+        "description": "Installation of mini electric motors, servo motors, and precision actuators."
+      },
+      {
+        "title": "Window Lifters",
+        "description": "Installation of window lifting mechanisms - automotive and industrial systems."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your partner for industrial installation",
+    "description": "SIMIĆ MONTAŽA is a specialized company for industrial machinery and equipment installation. With years of experience and an expert team, we provide reliable installation services for factories and manufacturing plants throughout Serbia.",
+    "description2": "Our priority is safety, precision, and meeting deadlines. We treat every project with the same attention, regardless of size.",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients",
+      "team": "Team Members"
+    }
+  },
+  "whyUs": {
+    "title": "Why Us",
+    "subtitle": "Reasons to work with us",
+    "items": [
+      {
+        "title": "Experienced Team",
+        "description": "Our technicians have years of experience installing the most demanding industrial equipment."
+      },
+      {
+        "title": "Safety First",
+        "description": "We strictly follow all safety standards and procedures on every project."
+      },
+      {
+        "title": "Reliability",
+        "description": "We respect agreed deadlines and guarantee the quality of every completed job."
+      },
+      {
+        "title": "Custom Solutions",
+        "description": "We adapt every project to the specific needs and requirements of the client."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "addressValue": "Miloša Obilića 119, 22330 Nova Pazova, Serbia",
+      "email": "Email",
+      "emailValue": "simicmontaza@gmail.com",
+      "phone": "Phone",
+      "phoneValue1": "+381 61 634 4051",
+      "phoneValue2": "+381 64 074 0869"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 SIMIĆ MONTAŽA. All rights reserved.",
+    "pib": "Tax ID: 113690643"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "services": "Usluge",
+    "about": "O nama",
+    "whyUs": "Zašto mi",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "SIMIĆ MONTAŽA",
+    "subtitle": "Precizna montaža industrijske opreme",
+    "description": "Profesionalna instalacija industrijskih mašina, ventilacije, elektronike i specijalizovane opreme.",
+    "cta": "Kontaktirajte nas"
+  },
+  "services": {
+    "title": "Naše Usluge",
+    "subtitle": "Kompletna rešenja za industrijsku montažu",
+    "items": [
+      {
+        "title": "Industrijske Mašine",
+        "description": "Montaža proizvodnih linija, CNC mašina i teške industrijske opreme sa preciznošću i sigurnošću."
+      },
+      {
+        "title": "Ventilacija",
+        "description": "Instalacija ventilacionih sistema, industrijske klimatizacije i sistema za odvod vazduha."
+      },
+      {
+        "title": "Elektronika",
+        "description": "Ugradnja kontrolnih panela, senzora i kompletne industrijske elektronike."
+      },
+      {
+        "title": "Elektro Motori",
+        "description": "Instalacija mini elektro motora, servo motora i preciznih aktuatora."
+      },
+      {
+        "title": "Podizači Stakala",
+        "description": "Montaža mehanizama za podizanje stakala - automobilski i industrijski sistemi."
+      }
+    ]
+  },
+  "about": {
+    "title": "O Nama",
+    "subtitle": "Vaš partner za industrijsku montažu",
+    "description": "SIMIĆ MONTAŽA je specijalizovana firma za montažu industrijskih mašina i opreme. Sa dugogodišnjim iskustvom i stručnim timom, pružamo pouzdane usluge instalacije za fabrike i proizvodne pogone širom Srbije.",
+    "description2": "Naš prioritet je sigurnost, preciznost i poštovanje rokova. Svaki projekat tretiramo sa istom pažnjom, bez obzira na veličinu.",
+    "stats": {
+      "years": "Godina iskustva",
+      "projects": "Završenih projekata",
+      "clients": "Zadovoljnih klijenata",
+      "team": "Članova tima"
+    }
+  },
+  "whyUs": {
+    "title": "Zašto Mi",
+    "subtitle": "Razlozi za saradnju",
+    "items": [
+      {
+        "title": "Iskusni Tim",
+        "description": "Naši tehničari imaju višegodišnje iskustvo u montaži najzahtevnije industrijske opreme."
+      },
+      {
+        "title": "Sigurnost na Prvom Mestu",
+        "description": "Striktno poštujemo sve bezbednosne standarde i procedure na svakom projektu."
+      },
+      {
+        "title": "Pouzdanost",
+        "description": "Poštujemo dogovorene rokove i garantujemo kvalitet svakog završenog posla."
+      },
+      {
+        "title": "Prilagođena Rešenja",
+        "description": "Svaki projekat prilagođavamo specifičnim potrebama i zahtevima klijenta."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Javite nam se",
+    "form": {
+      "name": "Ime i prezime",
+      "email": "Email adresa",
+      "phone": "Telefon",
+      "message": "Vaša poruka",
+      "submit": "Pošaljite poruku",
+      "sending": "Slanje...",
+      "success": "Poruka je uspešno poslata!",
+      "error": "Došlo je do greške. Pokušajte ponovo."
+    },
+    "info": {
+      "address": "Adresa",
+      "addressValue": "Miloša Obilića 119, 22330 Nova Pazova",
+      "email": "Email",
+      "emailValue": "simicmontaza@gmail.com",
+      "phone": "Telefon",
+      "phoneValue1": "+381 61 634 4051",
+      "phoneValue2": "+381 64 074 0869"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 SIMIĆ MONTAŽA. Sva prava zadržana.",
+    "pib": "PIB: 113690643"
+  }
+}

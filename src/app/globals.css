@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark industrial base */
+  --background: #0A0A0A;
+  --background-alt: #111111;
+  --surface: #1A1A1A;
+  --surface-hover: #242424;
+
+  /* Steel/metal tones */
+  --steel: #2A2D32;
+  --steel-light: #3D4148;
+  --steel-border: #404448;
+
+  /* Accent - Industrial Orange */
+  --accent: #FF6B00;
+  --accent-hover: #FF8533;
+  --accent-glow: rgba(255, 107, 0, 0.3);
+
+  /* Secondary - Electric Blue */
+  --secondary: #00A8E8;
+  --secondary-glow: rgba(0, 168, 232, 0.2);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0A0A0;
+  --text-muted: #666666;
+
+  /* Status */
+  --success: #00C853;
+  --warning: #FFB300;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-steel: var(--steel);
+  --color-steel-light: var(--steel-light);
+  --color-steel-border: var(--steel-border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-secondary: var(--secondary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --font-sans: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+/* Subtle engineering grid background */
+.grid-background {
+  background-image:
+    linear-gradient(rgba(255, 107, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 107, 0, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Orange glow for CTAs */
+.glow-orange {
+  box-shadow: 0 0 30px var(--accent-glow);
+}
+
+/* Blue glow for technical elements */
+.glow-blue {
+  box-shadow: 0 0 20px var(--secondary-glow);
+}
+
+/* Industrial border with accent */
+.industrial-border {
+  border: 1px solid var(--steel-border);
+  border-left: 3px solid var(--accent);
+}
+
+/* Label styling */
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Animation keyframes */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 0, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(255, 107, 0, 0.5); }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slide-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+
+/* Selection color */
+::selection {
+  background: var(--accent);
+  color: var(--text-primary);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--steel-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
